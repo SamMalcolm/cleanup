@@ -6,8 +6,8 @@ echo $DATE
 
 cd ~/Desktop
 
-mkdir DESKTOP_CLEANUP_${DATE} 
+mkdir DESKTOP_CLEANUP_${DATE}
 
 mv * DESKTOP_CLEANUP_${DATE} 
 
-mv DESKTOP_CLEANUP_${DATE} ~/Documents
+mv DESKTOP_CLEANUP_${DATE} ~/Documents/DESKTOP_CLEANUP_${DATE}
