@@ -24,8 +24,8 @@ if [ $SCREENSHOTS == "y" ];then
     echo "Removing Screen Shots from ~/Desktop"
 
     echo 
-    
-    rm "Screen Shot*.png"
+
+    rm "Screen Shot"*.png
 fi
 
 DATE=$(date +'%d-%m-%Y')

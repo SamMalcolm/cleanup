@@ -5,4 +5,4 @@ echo
 
 cd ~/Desktop
 
-rm "Screen Shot*.png"
+rm "Screen Shot"*.png
