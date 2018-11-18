@@ -38,7 +38,7 @@ mkdir DESKTOP_CLEANUP_${DATE}
 
 echo "Moving Contents of ~/Desktop to: DESKTOP_CLEANUP_${DATE}"
 
-mv * DESKTOP_CLEANUP_${DATE} 
+mv !(DESKTOP_CLEANUP_${DATE}|*.sh) * DESKTOP_CLEANUP_${DATE} 
 
 echo "Moving DESKTOP_CLEANUP_${DATE} to ~/Documents"
 
